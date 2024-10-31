@@ -1,17 +1,4 @@
 @media (max-width: 576px) {
-  /* Universal styles */
-
-  h2 {
-    font-size: 50px;
-  }
-
-  h3 {
-    font-size: 30px;
-  }
-
-  h6 {
-    font-size: 18px;
-  }
 
   button {
     width: 130px;
@@ -35,12 +22,11 @@
     gap: 5px;
   }
 
-  header div {
-    width: 100%;
+  .header-content {
+    padding: 0px;
   }
-
   header img {
-    margin-top: 35px;
+    margin-top: 25px;
   }
 
   /* Section 1 styles */
@@ -49,6 +35,7 @@
     display: flex;
     flex-direction: column;
   }
+
   .sec1 .grid-items {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -56,7 +43,7 @@
     padding: 0px;
     margin-top: 30px;
   }
-  
+
   .sec1 .sec1-content {
     width: 100%;
     /* padding: 20px; */
