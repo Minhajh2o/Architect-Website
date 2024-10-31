@@ -1,11 +1,13 @@
-/* Universal styles */
-/* Work Sans Font */
+
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap");
 
 * {
   font-family: "Work Sans", sans-serif;
   color: #131313;
+  margin: 0;
+  padding: 0;
 }
+
 main {
   max-width: 1320px;
   margin: auto;
@@ -92,13 +94,9 @@ nav a {
   transition: 0.2s;
 }
 nav a:hover {
-  background-color: lightgray;
-  border-radius: 3px;
-  font-weight: 600;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+  text-decoration: underline;
 }
-
-header div {
+.header-content {
   width: 862px;
   text-align: center;
   margin: 0px auto;
