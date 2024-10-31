@@ -99,9 +99,7 @@ nav a:hover {
 .header-content {
   margin-top: 75px;
   padding: 0px 190px;
-  /* width: 862px; */
   text-align: center;
-  /* margin: 0px auto; */
 }
 
 header img {
@@ -193,4 +191,7 @@ header img {
 .sec2 .experience h5 {
   color: #fff;
   margin: 0;
+}
+.hide{
+  display: none;
 }

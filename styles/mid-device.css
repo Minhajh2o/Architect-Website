@@ -1,3 +1,30 @@
-@media (min-with: 577px) and (max-width: 912) {
-    
-}
+@media screen and (min-width: 577px) and (max-width: 912px) {
+    button {
+      width: 150px;
+      height: 50px;
+      margin-top: 20px;
+      font-size: 18px;
+    }
+  
+    /* Header styles */
+    header {
+      padding: 30px;
+    }
+  
+    /* nav {
+      flex-direction: column;
+    } */
+  
+    nav ul {
+      /* flex-direction: column; */
+      gap: 25px;
+    }
+  
+    .header-content {
+      padding: 0px;
+    }
+  
+    header img {
+      margin-top: 25px;
+    }
+  }
