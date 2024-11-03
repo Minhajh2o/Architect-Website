@@ -1,10 +1,36 @@
 @media screen and (max-width: 576px) {
+  h2 {
+    font-size: 2.5rem;
+  }
+
+  h3 {
+    font-size: 2rem;
+  }
+
+  h4 {
+    font-size: 1.5rem;
+  }
+
+  h5 {
+    font-size: 1.25rem;
+    line-height: 2rem;
+  }
+
+  h6 {
+    font-size: 1rem;
+  }
+
+  p {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
 
   button {
     width: 130px;
     height: 40px;
     margin-top: 10px;
-    font-size: 16px;
+    font-size: 1rem;
+    border-radius: 4px;
   }
 
   /* Header styles */
@@ -58,5 +84,46 @@
     max-width: 460px;
   }
 
+  /* Section 2 styles */
+  .sec2 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card-content {
+    gap: 1rem;
+    width: 100%;
+  }
+
+  .sec2-title {
+    border-left: 3px solid #ff900e;
+    padding-left: 1rem;
+  }
+
+  .card {
+    gap: 8px;
+    padding: 15px;
+    height: auto;
+  }
+
+   .sec2 img {
+    width: 100%;
+    margin-left: 0;
+  }
+  .experience {
+    width: auto;
+    height: auto;
+    padding: 1rem;
+    margin: 1rem 20% 0 20%;
+    position:unset;
+    }
+
+  .experience h2 {
+    font-size: 2rem;
+  }
+
+  .experience h4 {
+    font-size: 1.25rem;
+  }
 
 }

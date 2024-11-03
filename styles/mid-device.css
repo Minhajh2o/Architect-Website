@@ -1,4 +1,30 @@
 @media screen and (min-width: 577px) and (max-width: 912px) {
+    h2 {
+        font-size: 3rem;
+    }
+
+    h3 {
+        font-size: 2.5rem;
+    }
+
+    h4 {
+        font-size: 1.75rem;
+    }
+
+    h5 {
+        font-size: 1.25rem;
+        line-height: 2rem;
+    }
+
+    h6 {
+        font-size: 1rem;
+    }
+
+    p {
+        font-size: 0.95rem;
+        line-height: 1.4rem;
+    }
+
     button {
         width: 150px;
         height: 50px;
@@ -11,12 +37,7 @@
         padding: 30px;
     }
 
-    /* nav {
-      flex-direction: column;
-    } */
-
     nav ul {
-        /* flex-direction: column; */
         gap: 25px;
     }
 
@@ -38,13 +59,13 @@
     .sec1 {
         display: flex;
         flex-direction: column-reverse;
-        padding: 0px;
+        padding: 0;
     }
 
     .grid-items {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        gap: 20px;
+        gap: 1.25rem;
     }
 
     .grid-items img {
@@ -54,5 +75,48 @@
     .sec1-content {
         text-align: center;
         max-width: 750px;
+    }
+
+    /* Section 2 styles */
+    .sec2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5rem;
+    }
+
+    .card-content {
+        width: 100%;
+    }
+
+    .sec2-title {
+        padding-left: 20px;
+    }
+
+    .card {
+        gap: 0.5rem;
+        padding: 1.25rem;
+        height: auto;
+    }
+
+    .sec2 img {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .experience {
+        width: auto;
+        height: auto;
+        padding: 1.875rem 1.25rem;
+        margin: 1rem 30% 0 30%;
+        position: unset;
+    }
+
+    .experience h2 {
+        font-size: 2rem;
+    }
+
+    .experience h4 {
+        font-size: 1.25rem;
     }
 }

@@ -18,6 +18,10 @@ h3 {
   font-weight: 700;
 }
 
+h4{
+  font-size: 2rem;
+  font-weight: 600;
+}
 h5 {
   font-size: 1.5rem;
   font-weight: 500;
@@ -149,64 +153,54 @@ main {
 }
 
 /* Section 2 */
-/* .sec2 {
+ .sec2 {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 50px;
-  margin-top: 60px;
-  margin-bottom: 130px;
+  /* align-items: center; */
+  gap: 1.5rem;
 }
 
-.sec2 .card-content {
+.card-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
   width: 525px;
 }
 
-.sec2 .sec2-title {
+.sec2-title {
   border-left: 5px solid #ff900e;
   padding-left: 20px;
-  margin-top: 0;
 }
 
-.sec2 .card {
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
   height: 115px;
   border-radius: 8px;
   background: #fff;
   box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
   padding: 30px;
-  margin-bottom: 20px;
-}
-
-.sec2 .card h6 {
-  margin: 0;
-}
-.sec2 .card p {
-  width: 500px;
 }
 
 .sec2 img {
-  width: 100%;
+  width: 91%;
   flex-shrink: 0;
-  margin-left: 50px;
+  margin-left: 4rem;
 }
 
-.sec2 .experience {
+.experience {
   width: 250px;
   height: 115px;
   flex-shrink: 0;
   border-radius: 8px;
   background: #ff900e;
   text-align: center;
-  padding: 45px 40px;
+  padding: 45px 40px;  
   position: relative;
-  bottom: 80px;
+  bottom: 4rem;
 }
 
-.sec2 .experience h2,
-.sec2 .experience h5 {
+.experience h2,
+.experience h4 {
   color: #fff;
-  margin: 0;
 }
-.hide{
-  display: none;
-} */
