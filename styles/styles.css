@@ -155,8 +155,9 @@ main {
 /* Section 2 */
  .sec2 {
   display: flex;
+  justify-content: space-between;
   /* align-items: center; */
-  gap: 1.5rem;
+  gap: 5rem;
 }
 
 .card-content {
@@ -182,10 +183,13 @@ main {
   padding: 30px;
 }
 
+.img-experience-container{
+  position: relative;
+}
 .sec2 img {
-  width: 91%;
+  width: 100%;
   flex-shrink: 0;
-  margin-left: 4rem;
+  /* margin-left: 4rem; */
 }
 
 .experience {
@@ -196,8 +200,9 @@ main {
   background: #ff900e;
   text-align: center;
   padding: 45px 40px;  
-  position: relative;
-  bottom: 4rem;
+  position: absolute;
+  bottom: 0rem;
+  left: -2.5rem;
 }
 
 .experience h2,
