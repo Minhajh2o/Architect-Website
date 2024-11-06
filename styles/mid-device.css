@@ -28,7 +28,7 @@
     button {
         width: 150px;
         height: 50px;
-        margin-top: 20px;
+        margin-top: 1rem;
         font-size: 18px;
     }
 
@@ -38,11 +38,12 @@
     }
 
     nav ul {
-        gap: 25px;
+        gap: 2rem;
     }
 
     .header-content {
         padding: 0px;
+        margin-top: 2rem;
     }
 
     header img {
@@ -119,4 +120,36 @@
     .experience h4 {
         font-size: 1.25rem;
     }
+
+    /* section-3 styles */
+    .sec3 {
+        gap: 1.5rem;
+        align-items: center;
+    }
+
+    .sec3-contents {
+        text-align: center;
+    }
+
+    .sec3-contents p {
+        width: 100%;
+    }
+
+    .sec3-cards-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .sec3-cards {
+        width: 160px; 
+        padding: 2rem;
+      }
+    
+      .badge {
+        width: 40px; 
+        height: 40px;
+      }
 }

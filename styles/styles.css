@@ -18,10 +18,11 @@ h3 {
   font-weight: 700;
 }
 
-h4{
+h4 {
   font-size: 2rem;
   font-weight: 600;
 }
+
 h5 {
   font-size: 1.5rem;
   font-weight: 500;
@@ -38,12 +39,13 @@ p {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5rem;
+  margin: 1rem 0;
 }
 
 button {
   width: 180px;
   height: 64px;
-  margin-top: 32px;
+  margin-top: 1rem;
   border: none;
   border-radius: 8px;
   background: #ff900e;
@@ -102,7 +104,7 @@ nav a:hover {
 }
 
 .header-content {
-  margin-top: 75px;
+  margin-top: 4.5rem;
   padding: 0px 190px;
   text-align: center;
 }
@@ -153,7 +155,7 @@ main {
 }
 
 /* Section 2 */
- .sec2 {
+.sec2 {
   display: flex;
   justify-content: space-between;
   /* align-items: center; */
@@ -183,9 +185,14 @@ main {
   padding: 30px;
 }
 
-.img-experience-container{
+.card p{
+  margin: 0;
+}
+
+.img-experience-container {
   position: relative;
 }
+
 .sec2 img {
   width: 100%;
   flex-shrink: 0;
@@ -199,7 +206,7 @@ main {
   border-radius: 8px;
   background: #ff900e;
   text-align: center;
-  padding: 45px 40px;  
+  padding: 45px 40px;
   position: absolute;
   bottom: 0rem;
   left: -2.5rem;
@@ -209,3 +216,46 @@ main {
 .experience h4 {
   color: #fff;
 }
+
+/* section-3 styles */
+.sec3 {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.sec3-cards-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.sec3-contents p{
+  width: 542px;
+}
+
+.sec3-cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: .5rem;
+  padding: 1rem;
+  /* card */
+  width: 180px;
+  height: auto;
+  flex-shrink: 0;
+  border-radius: 8px;
+  border: 1px solid #FF900E;
+  padding: 3rem 2rem;
+}
+
+.sec3-cards p{
+  margin: 0;
+}
+
+
+.badge {
+  width: 45.221px;
+  height: 45.221px;
+  flex-shrink: 0;
+}
+

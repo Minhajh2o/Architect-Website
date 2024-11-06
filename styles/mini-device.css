@@ -28,7 +28,7 @@
   button {
     width: 130px;
     height: 40px;
-    margin-top: 10px;
+    margin-top: 1rem;
     font-size: 1rem;
     border-radius: 4px;
   }
@@ -50,6 +50,7 @@
 
   .header-content {
     padding: 0px;
+    margin-top: 1.5rem;
   }
 
   header img {
@@ -58,7 +59,7 @@
 
   /* main styles */
   main {
-    gap: 20px;
+    gap: 2rem;
     margin: 50px 20px;
   }
 
@@ -88,6 +89,7 @@
   .sec2 {
     flex-direction: column;
     align-items: center;
+    gap: 1.5rem;
   }
 
   .card-content {
@@ -106,17 +108,18 @@
     height: auto;
   }
 
-   .sec2 img {
+  .sec2 img {
     width: 100%;
     margin-left: 0;
   }
+
   .experience {
     width: auto;
     height: auto;
     padding: 1rem;
     margin: 1rem 20% 0 20%;
-    position:unset;
-    }
+    position: unset;
+  }
 
   .experience h2 {
     font-size: 2rem;
@@ -126,5 +129,22 @@
     font-size: 1.25rem;
   }
 
+  /* section-3 styles */
+  .sec3 {
+    gap: 1.5rem;
+  }
   
+  .sec3-contents {
+    text-align: center;
+  }
+  .sec3-contents p{
+    width: 100%;
+  }
+  .sec3-cards-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+  }
+
 }
