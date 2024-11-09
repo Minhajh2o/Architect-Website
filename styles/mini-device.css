@@ -147,4 +147,20 @@
     align-items: center;
   }
 
+  /* section-4 styles */
+  .sec4 {
+    gap: 1.5rem;
+  }
+  
+  .sec4-content{
+    /* padding: 0; */
+    flex-wrap: wrap;
+  }
+  .sec4-sponsors{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    justify-items: center;
+  }
+
 }
