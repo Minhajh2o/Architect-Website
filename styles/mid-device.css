@@ -34,7 +34,7 @@
 
     /* Header styles */
     header {
-        padding: 30px;
+        padding: 50px;
     }
 
     nav ul {
@@ -42,7 +42,7 @@
     }
 
     .header-content {
-        padding: 0px;
+        padding: 0 20px;
         margin-top: 2rem;
     }
 
@@ -53,7 +53,7 @@
     /* main styles */
     main {
         gap: 50px;
-        margin: 50px 50px;
+        margin: 50px;
     }
 
     /* Section 1 styles */
@@ -140,7 +140,7 @@
         grid-template-columns: repeat(2, 1fr);
         justify-content: center;
         align-items: center;
-        gap: 2rem;
+        gap: 1.5rem;
     }
 
     .sec3-cards {
