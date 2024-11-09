@@ -185,7 +185,7 @@ main {
   padding: 30px;
 }
 
-.card p{
+.card p {
   margin: 0;
 }
 
@@ -229,7 +229,7 @@ main {
   justify-content: space-around;
 }
 
-.sec3-contents p{
+.sec3-contents p {
   width: 542px;
 }
 
@@ -249,7 +249,7 @@ main {
   padding: 3rem 2rem;
 }
 
-.sec3-cards p{
+.sec3-cards p {
   margin: 0;
 }
 
@@ -269,19 +269,31 @@ main {
   gap: 3rem;
 }
 
-.sec4-content{
+.sec4-content {
   text-align: center;
   padding: 0 200px;
 }
 
-.sec4-sponsors{
+.sec4-sponsors {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 1rem;
-  width : 100%;
+  width: 100%;
 }
 
 .sec4-sponsors img {
   filter: grayscale(100%);
+}
+
+/* footer styles */
+.footer {
+  border-radius: 8px;
+  background: #FFF4E7;
+  padding: 40px;
+  margin: 0 150px;
+}
+.footer h6{
+  text-align: center;
+  color: #424242;
 }

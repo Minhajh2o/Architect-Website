@@ -73,7 +73,7 @@
   .grid-items {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 20px;
+    gap: 1.25rem;
   }
 
   .grid-items img {
@@ -104,7 +104,7 @@
 
   .card {
     gap: 8px;
-    padding: 15px;
+    padding: 1rem;
     height: auto;
   }
 
@@ -163,4 +163,11 @@
     justify-items: center;
   }
 
+}
+
+/* Footer styles */
+.footer {
+  border-radius: 4px;
+  padding: 1.25rem;
+  margin: 0 20px;
 }

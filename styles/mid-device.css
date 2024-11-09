@@ -144,31 +144,38 @@
     }
 
     .sec3-cards {
-        width:200px; 
+        width: 200px;
         height: 200px;
         padding: 1rem;
         justify-content: center;
         gap: 1rem;
-      }
-    
-      .badge {
-        width: 40px; 
-        height: 40px;
-      }
+    }
 
-      /* section-4 styles */
-      .sec4 {
+    .badge {
+        width: 40px;
+        height: 40px;
+    }
+
+    /* section-4 styles */
+    .sec4 {
         gap: 2rem;
-      }
-      
-      .sec4-content{
+    }
+
+    .sec4-content {
         padding: 0;
         flex-wrap: wrap;
-      }
-      .sec4-sponsors{
+    }
+
+    .sec4-sponsors {
         flex-wrap: wrap;
         width: 80%;
         justify-content: center;
         gap: 2rem;
-      }
+    }
+
+    /* Footer styles */
+    .footer {
+        padding: 2rem;
+        margin: 0 50px;
+    }
 }
