@@ -243,6 +243,7 @@ main {
   width: 180px;
   height: auto;
   flex-shrink: 0;
+  flex-wrap: wrap;
   border-radius: 8px;
   border: 1px solid #FF900E;
   padding: 3rem 2rem;
@@ -276,6 +277,8 @@ main {
 .sec4-sponsors{
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
   width : 100%;
 }
 

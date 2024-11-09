@@ -140,16 +140,35 @@
         grid-template-columns: repeat(2, 1fr);
         justify-content: center;
         align-items: center;
-        gap: 1rem;
+        gap: 2rem;
     }
 
     .sec3-cards {
-        width: 160px; 
-        padding: 2rem;
+        width:200px; 
+        height: 200px;
+        padding: 1rem;
+        justify-content: center;
+        gap: 1rem;
       }
     
       .badge {
         width: 40px; 
         height: 40px;
+      }
+
+      /* section-4 styles */
+      .sec4 {
+        gap: 2rem;
+      }
+      
+      .sec4-content{
+        padding: 0;
+        flex-wrap: wrap;
+      }
+      .sec4-sponsors{
+        flex-wrap: wrap;
+        width: 80%;
+        justify-content: center;
+        gap: 2rem;
       }
 }
